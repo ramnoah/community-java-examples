@@ -5,10 +5,10 @@ public class Operaciones {
 
         // Declaración de variables
         int n1= 5, n2= 3, result= 0;
-        int param = 2;
+        int param = 5; // <--selección de una única opción
 
         // switch case
-        switch (10) {
+        switch (param) {
             case 1: result = n1 + n2;
             System.out.println("El resultado de la suma es: " + result);
             break;
