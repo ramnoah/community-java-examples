@@ -20,7 +20,11 @@ public class Perro {
         - float, que puede contener número reales: números con decimal, ya sean positivos o negativos
         - double, igual que el float, pero tiene el doble de precisión matemática.
     * */
-
+    /** Perro constructor
+     * @param color String
+     * @param nombre String
+     * @param raza String
+      */
     public Perro(String color, String nombre, String raza) {
         this.color = color;
         this.nombre = nombre;

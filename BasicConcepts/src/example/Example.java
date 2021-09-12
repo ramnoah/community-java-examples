@@ -6,9 +6,12 @@ public class Example {
         // Las variables son espacios en la memoria que contiene valores que pueden cambiar.
         // Todas las variables tienen un tipo de dato en específico.
 
-        var toby = new Perro("blanco", "toby", "husky"); // Creamos objeto tipo Perro
+        Perro toby = new Perro("blanco", "toby", "husky"); // Creamos objeto tipo Perro
 
         System.out.println("El color de "+ toby.nombre + " es " + toby.color); // imprimimos su nombre y color
+
+
+
 
 
 
@@ -35,3 +38,4 @@ public class Example {
 
     } // método, el método main siempre es el punto de entrada.
 }
+
